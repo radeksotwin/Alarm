@@ -22,7 +22,7 @@ $ rm Podfile
 
 $ pod init
 
-Add pods in Podfile and:
+Enter pod name ('SCLAlertView') in Podfile and:
 
 $ pod install
 

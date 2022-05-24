@@ -1,9 +1,8 @@
 # Alarm
 
-Compile error case:
+Compile error case due to denied permission:
 
 If AlarmTest.xcworkspace project would not compile with embedded Pods, deintegrate them and initialize Podfile one more time.
-
 
 
 1. Deintegration

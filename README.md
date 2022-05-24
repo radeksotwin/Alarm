@@ -2,7 +2,7 @@
 
 Compile error case:
 
-If AlarmTest.xcworkspace project would not compile with embedded Pods, deintegrate them and init Podfile one more time.
+If AlarmTest.xcworkspace project would not compile with embedded Pods, deintegrate them and initialize Podfile one more time.
 
 
 

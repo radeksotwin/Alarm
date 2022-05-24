@@ -1,0 +1,114 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "57F-Tj-7Va"; */
+"57F-Tj-7Va.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Delete Alarm"; ObjectID = "5nN-Bk-wQY"; */
+"5nN-Bk-wQY.configuration.title" = "Delete Alarm";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5nN-Bk-wQY"; */
+"5nN-Bk-wQY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sat"; ObjectID = "65Z-m7-cW1"; */
+"65Z-m7-cW1.configuration.title" = "Sat";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "65Z-m7-cW1"; */
+"65Z-m7-cW1.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "C21-l3-UA8"; */
+"C21-l3-UA8.title" = "Title";
+
+/* Class = "UIButton"; configuration.title = "Fr"; ObjectID = "Ea2-5i-2fL"; */
+"Ea2-5i-2fL.configuration.title" = "Fr";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ea2-5i-2fL"; */
+"Ea2-5i-2fL.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "Fhf-V0-bhu"; */
+"Fhf-V0-bhu.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Repetition"; ObjectID = "GDj-uE-epV"; */
+"GDj-uE-epV.text" = "Repetition";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "HUn-Ko-rEW"; */
+"HUn-Ko-rEW.title" = "Back";
+
+/* Class = "UIButton"; configuration.title = "Su"; ObjectID = "Hgu-hs-X0d"; */
+"Hgu-hs-X0d.configuration.title" = "Su";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Hgu-hs-X0d"; */
+"Hgu-hs-X0d.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Mo"; ObjectID = "Lz2-4n-OXg"; */
+"Lz2-4n-OXg.configuration.title" = "Mo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lz2-4n-OXg"; */
+"Lz2-4n-OXg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nwg-AB-Rae"; */
+"Nwg-AB-Rae.text" = "Label";
+
+/* Class = "UILabel"; text = "This is the alarm message"; ObjectID = "OcS-Wc-Wjd"; */
+"OcS-Wc-Wjd.text" = "This is the alarm message";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Rhr-wd-Diq"; */
+"Rhr-wd-Diq.title" = "Save";
+
+/* Class = "UITextField"; placeholder = "Type something"; ObjectID = "T3U-EJ-jr9"; */
+"T3U-EJ-jr9.placeholder" = "Type something";
+
+/* Class = "UIButton"; configuration.title = "We"; ObjectID = "T65-mh-FNP"; */
+"T65-mh-FNP.configuration.title" = "We";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T65-mh-FNP"; */
+"T65-mh-FNP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Mo"; ObjectID = "T8M-MU-oi0"; */
+"T8M-MU-oi0.text" = "Mo";
+
+/* Class = "UILabel"; text = "Information defined by user"; ObjectID = "TEz-Ws-G0h"; */
+"TEz-Ws-G0h.text" = "Information defined by user";
+
+/* Class = "UINavigationItem"; title = "Alarms"; ObjectID = "Xik-wB-PYr"; */
+"Xik-wB-PYr.title" = "Alarms";
+
+/* Class = "UILabel"; text = "Tu"; ObjectID = "aKO-CX-cbH"; */
+"aKO-CX-cbH.text" = "Tu";
+
+/* Class = "UILabel"; text = "Active Alarms"; ObjectID = "alC-5I-1Ra"; */
+"alC-5I-1Ra.text" = "Active Alarms";
+
+/* Class = "UILabel"; text = "Fr"; ObjectID = "bAe-rU-Ove"; */
+"bAe-rU-Ove.text" = "Fr";
+
+/* Class = "UILabel"; text = "Sat"; ObjectID = "d3D-6x-uBk"; */
+"d3D-6x-uBk.text" = "Sat";
+
+/* Class = "UILabel"; text = "Th"; ObjectID = "drG-O2-fzl"; */
+"drG-O2-fzl.text" = "Th";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eON-3A-OIM"; */
+"eON-3A-OIM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Su"; ObjectID = "gHA-hV-dm1"; */
+"gHA-hV-dm1.text" = "Su";
+
+/* Class = "UIButton"; configuration.title = "Tu"; ObjectID = "mDo-ZA-1d8"; */
+"mDo-ZA-1d8.configuration.title" = "Tu";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mDo-ZA-1d8"; */
+"mDo-ZA-1d8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Is Active"; ObjectID = "pyt-hB-2ya"; */
+"pyt-hB-2ya.text" = "Is Active";
+
+/* Class = "UILabel"; text = "We"; ObjectID = "sC6-2T-Cdo"; */
+"sC6-2T-Cdo.text" = "We";
+
+/* Class = "UIButton"; configuration.title = "Th"; ObjectID = "th8-ES-rkB"; */
+"th8-ES-rkB.configuration.title" = "Th";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "th8-ES-rkB"; */
+"th8-ES-rkB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "18:37"; ObjectID = "wHL-cw-AJQ"; */
+"wHL-cw-AJQ.text" = "18:37";

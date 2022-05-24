@@ -1,6 +1,7 @@
 # Alarm
 
-If xcworkspace project would not compile with embeded Pods, deintegrate them and init Podfile one more time:
+Compile error case:
+If AlarmTest.xcworkspace project would not compile with embeded Pods, deintegrate them and init Podfile one more time.
 
 1. deintegrate
 

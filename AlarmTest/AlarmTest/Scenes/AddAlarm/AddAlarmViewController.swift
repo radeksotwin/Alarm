@@ -16,7 +16,7 @@ class DayButton: UIButton {
 
 
 final class AddAlarmViewController: UIViewController, UNUserNotificationCenterDelegate {
-
+    
     @IBOutlet weak var navigationItemObject: UINavigationItem!
     @IBOutlet weak var awakeTimePicker: UIDatePicker!
     @IBOutlet weak var labelPropertyContentLabel: UILabel!
@@ -66,25 +66,8 @@ final class AddAlarmViewController: UIViewController, UNUserNotificationCenterDe
     }
 
     @IBAction func saveAlarmTapped(_ sender: UIBarButtonItem) {
-        if viewModel.alarmToSave.value == nil {
-            viewModel.alarmToSave.value = Alarm(context: PersistanceService.context)
-        }
-        
-        /// Remove old pending notification request before merging new alarmModel into alarmToSave data
-        AlarmManager.shared.removePendingAlarmNotification(with: viewModel.alarmModel.id, on: viewModel.alarmModel.repetition)
-        viewModel.alarmToSave.value = viewModel.mergeAlarmModelToAlarmToSave(alarmModel: viewModel.alarmModel, alarmToSave: viewModel.alarmToSave.value!)
-        PersistanceService.saveContext()
-        Alert.showAlert(subTitle: "Alarm has been saved.")
-        
-        /// Schedule edited alarm when is active
-        if viewModel.alarmToSave.value!.isActive == true {
-            AlarmManager.shared.scheduleAlarm(with: viewModel.alarmToSave.value!)
-        } else {
-            AlarmManager.shared.removePendingAlarmNotification(with: viewModel.alarmToSave.value!.id, on: viewModel.alarmToSave.value!.repetition)
-        }
-        
-        /// Post notification to Main view controller to reload table view data
-        NotificationCenter.default.post(name: NSNotification.Name.saveButtonTapped, object: nil, userInfo: nil)
+        viewModel.saveAlarm()
+        ///
         dismiss(animated: true, completion: nil)
     }
     

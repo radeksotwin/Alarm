@@ -8,7 +8,6 @@
 import Foundation
 
 final class AddAlarmViewModel {
-    
     var awakeTime = ObservableObject<Date>(Date().addingTimeInterval(60*60*2))
     var id = ObservableObject<String>("")
     var labelText = ObservableObject<String>("")
@@ -21,6 +20,27 @@ final class AddAlarmViewModel {
     var repetitionDaysArray: [String] = []
     var alarmDeletionCallBack: (() -> Void)?
     
+    func saveAlarm() {
+        if alarmToSave.value == nil {
+            alarmToSave.value = Alarm(context: PersistanceService.context)
+        }
+        /// Remove old pending notification request before merging new alarmModel into alarmToSave data
+        AlarmManager.shared.removePendingAlarmNotification(with: alarmModel.id, on: alarmModel.repetition)
+        ///
+        alarmToSave.value = mergeAlarmModelToAlarmToSave(alarmModel: alarmModel, alarmToSave: alarmToSave.value!)
+        ///
+        PersistanceService.saveContext()
+        ///
+        Alert.showAlert(subTitle: "Alarm has been saved.")
+        /// Schedule edited alarm when is active
+        if alarmToSave.value!.isActive == true {
+            AlarmManager.shared.scheduleAlarm(with: alarmToSave.value!)
+        } else {
+            AlarmManager.shared.removePendingAlarmNotification(with: alarmToSave.value!.id, on: alarmToSave.value!.repetition)
+        }
+        /// Post notification to Main view controller to reload table view data
+        NotificationCenter.default.post(name: NSNotification.Name.saveButtonTapped, object: nil, userInfo: nil)
+    }
     
     func translateDayNameToDayPrefix(dayName: String) -> String {
         switch dayName {
